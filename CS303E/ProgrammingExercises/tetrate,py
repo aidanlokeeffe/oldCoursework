@@ -1,0 +1,14 @@
+def tetrate(base, height):
+  if height == 1:
+    return base
+  else: 
+    return base * tetrate(base, height - 1)
+
+def main():
+  base, height = int(input("Enter the base and height separated by commas: "))
+
+  result = tetrate(base, height)
+
+  print("The " + str(height) + "-th tetration of ", str(base) " = " + str(result))
+
+main()

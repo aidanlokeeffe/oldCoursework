@@ -1,0 +1,11 @@
+019-923-3241  valid 
+818-851-703X  invalid 
+5703781188  invalid 
+031-X287085-  invalid 
+00-7141858-X  valid 
+123456789X  valid 
+ASDFGHJKLQ  invalid 
+456-1243-531  invalid 
+R456-123-988  invalid 
+677-1256-23X  invalid 
+439-092-1252  invalid 

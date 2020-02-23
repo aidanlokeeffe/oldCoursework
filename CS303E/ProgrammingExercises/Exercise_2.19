@@ -1,0 +1,11 @@
+def main():
+  principal = eval(input("Enter investment amount: "))
+  ann_rate = eval(input("Enter annual interest rate: "))
+  years = eval(input("Enter number of years: "))
+
+  months = years * 12
+  rate = ann_rate / 12
+
+  amount = principal * ((1 + rate) ** months)
+
+  print("Accumulated value is," amount)
